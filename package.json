@@ -12,14 +12,19 @@
     "test": "jest --watch"
   },
   "babel": {
-    "presets": ["react", "env", "stage-2"]
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "cross-env": "^5.0.1",
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
