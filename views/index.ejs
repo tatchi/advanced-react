@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript">
-    window.initialData = <%- JSON.stringify(initialData) -%>
+    window.initialData = <%-JSON.stringify(initialData)-%>
   </script>
 </head>
 
@@ -14,5 +14,4 @@
   <div id="root"><%- initialMarkup -%></div>
   <script src="/bundle.js" charset="utf-8"></script>
 </body>
-
 </html>
